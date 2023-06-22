@@ -77,7 +77,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center;
+    background: url('../image/hero-image.webp') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -192,11 +192,29 @@ hr {
     border-radius: 50%;
 }
 
-#time{
-    background-image: url(../image/ethos-center-image.jpg);
+/* event times */
+
+#times {
+    background-image: url('../image/times-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fafafa;
 }
